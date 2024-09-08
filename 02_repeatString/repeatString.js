@@ -4,6 +4,8 @@ let text = "";
 const repeatString = function(String, Count) {
     if (Count < 0) {
         return "ERROR";
+    } else if (Count === 0) {
+        text = "";
     } else {
     for (let i = 1; i <= Count; i++) { 
         if (i === 1) {
