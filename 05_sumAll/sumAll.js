@@ -1,5 +1,7 @@
-const sumAll = function() {
-
+const sumAll = function(low, high) {
+    let sum = 0;
+    for (let i = low; i <= high; i++) {
+        sum += i;}; return sum;
 };
 
 //create function low and high argument
