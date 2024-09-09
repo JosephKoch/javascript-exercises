@@ -1,5 +1,7 @@
 const sumAll = function(x, y) {
-    if (x < 0 || y < 0 || !Number.isInteger(x, y)){
+    if (x < 0 || y < 0 
+        || !Number.isInteger(x, y) 
+        || typeof y != 'number') {
         return "ERROR";
     } else {
         arr = [x, y];
