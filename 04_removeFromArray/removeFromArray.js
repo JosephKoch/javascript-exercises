@@ -1,8 +1,11 @@
-const removeFromArray = function(myArray, x) {
+const removeFromArray = function(myArray) {
     let arr = myArray;
-    arr = arr.filter(e => e !== x);
+    for (let i = 1; i < arguments.length; i++) {
+    arr = arr.filter(e => e !== arguments[i]);
+    }
     return arr;
 };
 
+//
 // Do not edit below this line
 module.exports = removeFromArray;
