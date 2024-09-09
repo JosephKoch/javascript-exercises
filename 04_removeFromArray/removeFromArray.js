@@ -6,6 +6,5 @@ const removeFromArray = function(myArray) {
     return arr;
 };
 
-//
 // Do not edit below this line
 module.exports = removeFromArray;
